@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1491218313 source:/home/nayron/Documentos/PAA/Ordenacao/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
