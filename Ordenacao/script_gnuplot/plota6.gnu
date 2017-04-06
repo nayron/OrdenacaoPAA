@@ -6,7 +6,7 @@
 # Este programa GnuPlot seta uma janela grafica e le varios
 # arquivos de dados.
 # ----------------------------------------------------------
-set title "Plot de Complexidade de Tempo para Merge Sort"
+set title "Plot de Complexidade de Tempo para Shell Sort"
 #
 #Seta tamanho da janela automaticamente de acordo com os dados
 set autoscale
@@ -25,9 +25,9 @@ set key default
 set grid
 
 plot \
-	"merge-sort-rand.dat" title "Randomicos" w linespoints,\
-        "merge-sort-ord.dat" title "Ordenados" w linespoints, \
-        "merge-sort-inv.dat" title "Invertidos" w linespoints
+	"relatorios/shell-sort-rond.dat" title "Randomicos" w linespoints,\
+        "relatorios/shell-sort-ord.dat" title "Ordenados" w linespoints, \
+        "relatorios/shell-sort-inv.dat" title "Invertidos" w linespoints
 	
 	
 #

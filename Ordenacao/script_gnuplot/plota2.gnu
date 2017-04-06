@@ -6,7 +6,7 @@
 # Este programa GnuPlot seta uma janela grafica e le varios
 # arquivos de dados.
 # ----------------------------------------------------------
-set title "Plot de Complexidade de Tempo para Insertion Sort"
+set title "Plot de Complexidade de Tempo para Selection Sort"
 #
 #Seta tamanho da janela automaticamente de acordo com os dados
 set autoscale
@@ -25,9 +25,9 @@ set key default
 set grid
 
 plot \
-	"Insert-sort-rond.dat" title "Randomicos" w linespoints,\
-        "Insert-sort-ord.dat" title "Ordenados" w linespoints, \
-        "Insert-sort-inv.dat" title "Invertidos" w linespoints
+	"relatorios/Select-sort-rond.dat" title "Randomicos" w linespoints,\
+        "relatorios/Select-sort-ord.dat" title "Ordenados" w linespoints, \
+        "relatorios/Select-sort-inv.dat" title "Invertidos" w linespoints
 	
 	
 #

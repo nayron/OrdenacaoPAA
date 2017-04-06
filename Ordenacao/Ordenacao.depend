@@ -1,6 +1,17 @@
 # depslib dependency file v1.0
-1491218313 source:/home/nayron/Documentos/PAA/Ordenacao/main.c
+1491473344 source:/home/nayron/Documentos/PAA/teste/OrdenacaoPAA/Ordenacao/ordenacao.c
 	<stdio.h>
 	<stdlib.h>
+	<time.h>
+
+1491473541 source:/home/nayron/Documentos/PAA/teste/OrdenacaoPAA/Ordenacao/main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"ordena.h"
+
+1491473513 /home/nayron/Documentos/PAA/teste/OrdenacaoPAA/Ordenacao/ordenacao.c
+
+1491473586 /home/nayron/Documentos/PAA/teste/OrdenacaoPAA/Ordenacao/ordena.h
 	<time.h>
 

@@ -6,14 +6,12 @@
 # Este programa GnuPlot seta uma janela grafica e le varios
 # arquivos de dados.
 # ----------------------------------------------------------
-set title "Plot de Complexidade de Tempo para Quick Sort"
+set title "Plot de Complexidade de Tempo para Shell Sort"
 #
 #Seta tamanho da janela automaticamente de acordo com os dados
 set autoscale
 
 set style data linespoints
-
-
 
 
 set xlabel "Tamanho do Conjunto de Dados"
@@ -27,9 +25,12 @@ set key default
 set grid
 
 plot \
-	"quick-sort-rand.dat" title "Randomicos" w linespoints,\
-        "quick-sort-ord.dat" title "Ordenados" w linespoints, \
-        "quick-sort-inv.dat" title "Invertidos" w linespoints
+	"relatorios/shell-sort-rond.dat" title "Shell Sort" w linespoints,\
+        "relatorios/bubble-sorte-rond.dat" title "Bubble Sort" w linespoints, \
+        "relatorios/Select-sort-rond.dat" title "Select Sort" w linespoints,\
+	"relatorios/Insert-sort-rond.dat" title "Insert Sort" w linespoints,\
+	"relatorios/merge-sort-rand.dat" title "Merge Sort" w linespoints,\
+	"relatorios/quick-sort-rand.dat" title "Quick Sort" w linespoints
 	
 	
 #
